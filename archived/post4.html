@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Clean Blog - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Background</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post2.html">Development</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post3.html">Fundamental</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post4.html">Technicality</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post5.html">Industry practice</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post6.html">Academia</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/lsw01993.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Natural Language Processing and algorithm models’ flaw</h1>
+                            <h2 class="subheading">Drilling down flaw of graduate’s code from a technical perspective</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/infographics.png">.
+                        </div>
+                        <h2 class="section-heading">Low-cost bag of word model is flawed that can only capture surface meaning</h2>
+                        <p>Giving the <a href="https://github.com/tstewart161/Reddit_Sentiment_Trader">code</a> to Chief Data Scientist Mr. Po in Wizpresso, which is a Hong Kong-based technology company that aims to augment capital markets workflow by developing NLP and deep learning to automate financial due diligence, he commented, “Neglecting his trading strategies, the program itself has some technical flaws.” </p>
+                        
+                        <span class="caption text-muted">Wizpresso, a Hong Kong-based technology company</span> 
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/wizpressocompany.jpeg">.
+                        </div>
+                        <span class="caption text-muted">Photo provided by Wizpresso</span> 
+                        <p>He said the graduate’s code is dictionary-based sentiment extraction method, which is essentially bag-of-words models that treat text as a collection of words without considering the sequence relationship of words. “Since the bag-of-word model can only capture the most shallow features, the emotion extraction processing would be rough and not granular enough.” he stressed. </p>
+                        <span class="caption text-muted">Limitation of bag-of-word model</span>
+                        <div style="display: flex; justify-content: center;">
+                            <iframe width="450" height="253.12" src="https://www.youtube.com/embed/ddTBQYkqOjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <p>He further explained text features can be divided into two levels of processing, namely surface and syntactic features. Surface level means detecting words appearance and frequency only, while syntactic features involve deeper textual understanding such as interpreting part of speech, grammar and even word order.</p>
+                        <p>For example, he said suppose we build a sentiment analyzer based on only Bag of Words, such a model will not be able to capture the difference of sentences with same words but with different part of speech, e.g. between “I like you”, where “like” is a verb with a positive sentiment, and “I am like you”, where “like” is a preposition with a neutral sentiment.</p>
+                        <span class="caption text-muted">Can't differentiate "I like you" and "I am like you"</span>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/like.png">.
+                        </div>
+                        <span class="caption text-muted">Graph created by TrevinTam and approved by Chief Data Scientist Peter Po</span>
+                        <!-- <section class="rw-wrapper"> -->
+                            <!-- <h2 class="rw-sentence">
+                                <span>Do you know?</span>
+                                <div class="rw-words rw-words-2">
+                                    <span>Bag-of-word model can't differentiate</span>
+                                    <span>"I like you" and "I am like you"</span>
+                                    <span>"He genuinely needs to do that"</span>
+                                        and "He needs to do that genuinely"</span>
+                                </div>
+                                <br>
+                            </h2> -->
+                        <!-- </section> -->
+                        <p>Po gave another example of same words but different sequential order illustrate the importance of sequential order to a good NLP model which the graduate’s code is missing. For the following two sentences: “He genuinely needs to do that.” and "He needs to do that genuinely.", they use the same words, but they differ in meaning. The first signifies that the person really needs to do something, while the second means that the person must do something with sincerity. The word order is important here not to convey feeling or tone, but to impart a particular interpretation. </p>
+                        <span class="caption text-muted">Can't differentiate “He genuinely needs to do that.” and "He needs to do that genuinely."</span>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/genuine.png">.
+                        </div>
+                        <span class="caption text-muted">Graph created by TrevinTam and approved by Chief Data Scientist Peter Po</span>
+                        <p>Po also explained why capturing grammar in NLP model is important, which the graduate’s code is missing. “The biggest fault with hyphens is that it can change the meaning of your sentence”. he said. He gave an example of considering two sentences - “A hot-water bottle is a bottle for holding hot water.” and “A hot water bottle is a water bottle that is hot.” The first sentence, with the hyphens, is describing a bottle for holding hot water. The second sentence is stating that it is a hot water bottle. However, to bag-of-word model, both sentences would be the same.</p>
+                        <h2 class="section-heading">Current dictionary for bag-of-word model is poorly developed for social media text and is expensive to develop</h2>
+                        <p>“Other than the model, it is by nature difficult and time-consuming to tailor-make a dictionary for the context of specifically predicting WallStreetBets sentiment.” Po added. He said typical word lists in financial area include Loughran McDonald Word List, which is a list of positive and negative words for official financial reports which contain the summary of companies’ performance. </p>
+                        <span class="caption text-muted">Example of a word list</span>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/wordlist.png">.
+                        </div>
+                        <span class="caption text-muted">Source: towarddatascience</span>
+                        <p>However, he criticized the word list is a very rough dictionary. For example, there were some financial-specific words were not mapped, such as “short” were not mapped as a negative word, even “shorting a stock” clearly expresses a negative sentiment toward that stock.</p>
+                        <p>Also, Loughran McDonald Word List is not specifically built up for understanding social media or Reddit’s comment text. The term “diamond hands” is believed to be coined in the r/WallStreetBets subreddit, which is used primarily to talk about those investing in highly volatile investments like meme stocks and cryptocurrencies. Also, Loughran McDonald Word List definitely does not include "Position or Ban", which is used on Wallstreetbets after a user posts a screenshot of their Robinhood home screen showing a gain or a loss. If users are unable to provide your positions, the community may ban them. He criticized the bag-of-word model would probably labels “Position or Ban” as negative it detects the negative word “ban”, even though it is positive correlated with the stock price.</p>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/to-the-moon-wsb.gif">.
+                            </div>
+                        <h2 class="section-heading">Even advanced Models can’t identify granular human emotions</h2>
+                        <p>“Emotion extraction based on very advanced machine learning may capture more advanced syntactic features from text” Po said. However, human emotions are so complex that is divided into 8 large dimensions and 24 fine-grained dimensions, namely vigilance, joy, hatred, grief, fear, surprise, annoyance and so on. </p>
+                        <p>“The current machine learning-based methods cannot achieve such high-granularity emotion extraction.” he warned. Particularly, he said it is still a difficult task even for advanced models to understand sarcasm such as “It’s raining again today… fun times!” Another difficulty he mentioned is when reading into context is necessary in addition to the meaning of words. For example, “I love the new Acme phones, they are so much better than NewCo’s.”, where expressions like “love” and “much better” carry positive sentiment, however, the sentiment is not so good for “NewCo”. </p>
+                        <h2 class="section-heading">Only textual data cannot capture the essence of Reddit sentiment</h2>
+                        <p>Other than Po and Lam, I have also interviewed an analyst (nickname as Tim in following article) from a major US bank who chose to remain anonymous due to regulation concern. Tim said “model that solely relies on text can’t capture the multi-media nature of social media like Reddit.” he added. Compared with only text in financial statements, there are wider variety of elements such as videos, pictures or even emojis on social media like Reddit.</p>
+                        <p>In the top post - “GME, GO BRRR - January 30” with 431,000 upvotes had gone viral because of a video. A 15-second video shows “GME, GO BRRR” displayed on a New Tradition billboard in Times Square. Someone saw the billboard and managed to post it on r/wallstreetbets. It immediately blew up the sentiment of the subreddit, reaching over 200.000 upvotes in just a few hours.</p>
+                        <div style="display: flex; justify-content: center;">
+                        <video controls="controls" width="550" height="600" name="Video Name">
+                            <source src="assets/img/GME go brrr billboard.mov">
+                          </video>
+                        </div>
+                        <p>“As mentioned in the beginning, wallstreetbets is characterized by heavy use of emojis, often in senses that are unique to the subreddit.” he explained. For example, the rocket emoji, which appears very frequently in WallStreetBets, convey strong positive sentiment. If it is neglected, the model miss a large portion of the original sentiment.</p>
+                        <h2 class="section-heading">There is so much randomness in a social media platform to predict</h2>    
+                        <p>“It is difficult to accurately predict stock price with comments as there are too many uncertain factors in a social media platform” Po said. For example, there were zero comments recorded on 27th Feb in WallStreetBets. Logically, the model would predict the stock price to drop. However, in reality, the stock price spikes, deviating from the machine’ prediction. </p>
+                        <p>He explained the comments turning zero is not because GME has lower public attention - it is exactly the opposite when the short squeeze happened and company Discord banned the r/WallStreetBets server for “seeing hateful and discriminatory content”, that they claim there are many posts on the subreddit contain offensive language. </p>
+                        
+                        <div style="display: flex; justify-content: center;">
+                            <video controls="controls" width="550" height="600" name="Video Name">
+                                <source src="assets/img/JOUR4855 Robinhood blocking GME.mov">
+                              </video>
+                            </div>
+                        <p>Less than 1 hour, the moderators reopen the subreddit due to massive complaints. The subreddit has then even seen a more significant increase in attention in following ban, at the same time causing retailers to buy GME stock as a support. Therefore, he reassured the comments turning zero is not because GME has lower public attention, rather it is exactly the opposite. It illustrates accurately predict stock price is difficult if there are too many uncertain factors.</p>
+                        <h2 class="section-heading">Model might work well only in specific timeframe</h2> 
+                        <p>Po reminded relevant investors that the social media comment data might only perform well in a specific timeframe. The chart of comments per day against GME stock price from Jan 2021 to Feb 2021, in which timeframe the WallStreetBets happen,  shows the correlation of stock price and comment frequency is very strong. However, the correlation turns lower in other timeframe or even unrelated in recent stock market crash. “If the stock market crash, investors would transfer their money back to safer assets like gold and large-capitalisation companies like Apple and Amazon, but not Meme stocks like GME and AME.” he added.</p>
+                        <div style="display: flex; justify-content: center; ">
+                            <img class="img-fluid" src="assets/img/timeframe.png">.
+                            </div>
+                        <h2 class="section-heading">Model might work well only in small-cap stocks</h2> 
+                        <p>On another hand, Tim reminded that social media comment data might perform well on small capitalisation stocks but not large corporates. For example, considering Amazon and Apple, which have a market capitalisation of $1.534 Trillion and $2.736 Trillion respectively, the chart of comments per day against amazon or apple’s stock price shows the correlation between forum activity and these two large -capitalisation stocks are very weak.</p>
+                        <div style="display: flex; justify-content: center; ">
+                            <img class="img-fluid" src="assets/img/amazon.png">.
+                            </div>
+                            <div style="display: flex; justify-content: center; ">
+                                <img class="img-fluid" src="assets/img/apple.png">.
+                                </div>
+                        <p>Another example to illustrate model might only work well in small-cap stocks is, based on a large dataset from StockTwits, which is a world’ leading social network and community of investors and traders. The dataset includes almost 30 million tweets by 156.000 users from 2010 to 2017 surrounding a sample of 8,575 U.S. publicly-traded companies. </p>
+                        <p>According to Institutional Investor,  the massive data shows the twitter sentiment indicator is more predictive of smaller market capitalization portfolios. Among them, on the bottom 20% of the portfolio by market capitalization, the best predictive model based on the twitter sentiment indicator can achieve p-value < 1% significance. (according to Investopedia, p-value < 1% significance means the indicator’s relationship with stock price is very strong). This may suggest that small-cap companies are more significantly sensitive to market sentiment.</p>
+                        <!-- <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                        <p>
+                            Placeholder text by
+                            <a href="http://spaceipsum.com/">Space Ipsum</a>
+                            &middot; Images by
+                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+                        </p> -->
+                        <br>
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-md-5 col-lg-4 col-xl-3">
+                               <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="post3.html">Previous</a></div>
+                            </div>
+                            <div class="col-md-5 col-lg-4 col-xl-3">
+                               <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="post5.html">Continue</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
