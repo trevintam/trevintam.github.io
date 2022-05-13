@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Social media data and NLP</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <div id="Home">
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#Home">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Background">Background Story</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Fundamental">Finance practitioners response on Hoi's loss</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Technicality">Analytics experts response on Hoi's loss</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Research">Do professional researchers perform better?</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#Industry Practice">How the industry uses NLP and social media data?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <!-- Page Header-->
+    <div id="top">
+        <header class="masthead" style="background-image: url('assets/img/Screenshot 2022-05-09 at 04.08.08.png')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h2>Social media sentiment for stock price prediction, a good approach or a trap?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div id="Background">
+            <article class="mb-4">
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7">
+                            <h2 class="section-heading">University graduate lost HKD$ 300,000 with his sentiment trading bot in recent stock market crash</h2>
+                            <br>
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/300k.png" alt="..." /></div>
+                            <span class="caption text-muted">Photo provided by Hoi</span> 
+                            <p>"In the beginning I made more than 60% profit and I never expected my bank account would turn empty." A recent graduate (nickname Hoi) chose to remain anonymous because he did not want his family and friends to know he has lost his fortune.</p>
+                            <span class="caption text-muted">Fresh graduate Hoi lost HKD$300,000 and wish to remain anonymous</span> 
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/hoi_blur.jpg" alt="..." /></div>
+                            <span class="caption text-muted">Source: Gettyimages</span> 
+                            <p>Since February 2021, Hoi had built an automatic trading program with reference to the code from a source code platform GitHub, quantifying the text on the WallStreetBets forum into sentiment score, which is then used to predict Game Station (GME)'s stock price. But in March 2022, the global stock market crashed, and the program no longer brought him profits, instead costed him nearly HKD$ 300,000.</p>
+                            <p>23-year-old Hoi graduated with a Computer Science degree from a university in Hong Kong around a year ago. He recalled he had read a lot of academic papers about sentiment trading bot when he was studying Computer Science. He remembered many scholars said the rise of social media such as Facebook and Twitter after 2010 generated a large amount of data of great research value, including for predicting stock price trends.</p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9424460"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <span class="caption text-muted">Source: Statista</span>
+                            <p>At the same time, with the development of neural network, Natural Language Processing (NLP) technology has been greatly developed in the past decade. According to IBM Cloud Education, NLP refers to the branch of artificial intelligence to understand text and spoken words as how human beings can. With the growing ability for computers to understand text, many investors are more fond on using NLP for sentiment analysis of social media data, hence using it for price prediction.</p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9425517"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <span class="caption text-muted">Source: Google Search Trend</span>
+                            <p>“Under the context of growing interest of using NLP to analyze massive social media data, many investors said WallStreetBets' comments were highly correlated with GME's stock price trend, so many of them grabbed this opportunity to build trading programs." Hoi recalled.</p>
+                            <p>WallStreetBets is a stock-related subsection of the American forum Reddit, known for its aggressive trading strategies and unique slangs. Investors participating in the discussions are usually young retail investors with little investment experience. They always make speculative trades which ignore company fundamentals. It is exactly these characteristics of the forum gave birth to the "GME Short Squeeze Incident" early last year.</p>
+                            <span class="caption text-muted">A word cloud showing WallStreetBets' slangs</span>
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/rocket_04182022_1200.svg" alt="..." /></div>
+                            <span class="caption text-muted">Source: WallStreetBets</span>
+                            <p>In February last year, GME, a game company that accompanied many people's youth, was shorted by numerous hedge fund. Partly out of nostalgia feeling towards GME, retail investors stood against those hedge funds, bought GME stocks together and incited others via WallStreetBets to join the battle. Its stock price has soared since then, skyrocketing nearly 16 times the highest.</p>
+                            <span class="caption text-muted">GameStop (GME) is an American-based game retail company</span>
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/gme store.jpeg" alt="..." /></div>
+                            <span class="caption text-muted">Source: GettyImages</span>
+                            <p>Since the "GME Short Squeeze Incident", many retail investors have realised the comment volume on the forum and the stock price trend are very consistent. The obvious correlation between the two has attracted investors to use comments on the forum as a trading indicator, hence trade on WallStreetBets sentiment and comment frequency. At the same time, many bloggers share the code of social media sentiment analysis on the source code platform GitHub.</p>
+                            <span class="caption text-muted">Obvious correlation between comment frequency and stock price</span>
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/comment_freq.png" alt="..." /></div>
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/gme_price.png" alt="..." /></div>
+                            <span class="caption text-muted">Source: Yahoo Finance</span>                  
+                            <p>Hoi was drawn to a Reddit post titled "I used VADER to Sentiment Analysis to Track and Invest based on WallStreetBets Stock sentiment- I'm up 33%, annually $16k". Seeing the success of others, he couldn't wait to refer to other people's code and test the trading program by himself. “The first month of trading recorded a 50% gain when the S&P 500 was only up about 10%.” he said. Although GME has less attention in the second half of 2021 after the WallStreetBets incident faded, the trading program still occasionally brings him 10-30% profit, that he could never expect his bank account would turn empty in recent stock market crash.</p>
+                            <span class="caption text-muted">Screenshot of the post “I used sentiment analysis to track and invest based on WallStreetBets stock sentiment -- I'm up 33% annually $16k”</span> 
+                            <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/vaderreddit.png" alt="..." /></div>
+                            <span class="caption text-muted">Source: Reddit</span> 
+                            <br>
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                               <div class="col-md-5 col-lg-4 col-xl-3">
+                                  <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Home">Previous</a></div>
+                               </div>
+                               <div class="col-md-5 col-lg-4 col-xl-3">
+                                  <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Fundamental">Continue</a></div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div id="Fundamental">
+               <!-- Page Header-->
+               <header class="masthead" style="background-image: url('assets/img/goldman-sachs-1880x1253.jpeg')">
+                <div class="container position-relative px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7">
+                            <div class="post-heading">
+                                <h1>Finance practitioners responded to Hoi's loss</h1>
+                                <h2 class="subheading">Goldman Sachs Analyst and Aqumon warn Hoi and relevant parties that GME's fundamental is poor, and sentiment would only affect the price in short-term</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Post Content-->
+            <article class="mb-4">
+                <div class="container px-4 px-lg-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-md-10 col-lg-8 col-xl-7">
+                            <p>While Hoi has lost almost HKD$ 300,000 with his sentiment trading program, I have interviewed professionals from the financial industry to investigate what Hoi had done wrong, hopefully to allow young investors to be more aware through this story.</p>
+                            <h2 class="section-heading">Retail business heavily impacted by Covid-19</h2>
+                            <p>Goldman Sachs Financial Analyst Lam Tsz-kwan warned if anyone still trading on these programs, they have to realize GME’s fundamental and financial situation are worrying.</p>
+                            <p>GameStop Corp. (GME) is focused on offering games, entertainment products and technology through its e commerce properties and stores. “Since GME primarily does physical retail operations, its digital product only account less than 3% of their business portfolio. Therefore, since large portion of GME's business is physical retail, the company's sales performance has been seriously impacted by the Covid-19.” </p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9425871"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <p>Also Lam alerted relevant investors that the total number of retail stores of GME has dropped from 7276 to 4816 from 2018 to 2021, not to mention the industry trend that games are increasingly going digital. The pandemic has made the situation much worse as video game buyers pivoted hard toward digital downloads and buying games online.</p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9426119"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <h2 class="section-heading">Lower profitability and bargaining power</h2>
+                            <p>“In terms of GME’s profitability, its revenue and profit margin have dropped substantially”, Lam warned. He explained profit margin indicates how many percents of profit GME’s retail business has generated for each dollar of sale. The declining profit margin of GME implies its business is become less and less profitable.</p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9426343"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <p>“Their days sales outstanding rise rapidly”, Lam stressed. He explained giants like Walmart and Amazon are selling similar stuff so GME could not receive descent business terms from suppliers and consumers in product return policies and payment terms, leading to rapid rise in days sales outstanding. He further explains days sales outstanding measure number of days that it takes GME to collect payment for a sale on average. GME’s increasing days sales outstanding number suggests that it is experiencing delays in receiving payments, causing a cash flow problem. </p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9434404"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <p> “In recent years, GME’ days payable outstanding has decreased substantially, meaning it has been losing bargaining power from supply chain.” Lam added. Contrary to days sales outstanding, he explained the decreasing number of days payable outstanding indicates the average time of GME takes to pay its bills to its trade creditors, suppliers or vendors has been shortening, meaning they have less bargaining power from their suppliers and becoming less flexible to manage their cash reserve.</p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9434447"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <p>“In terms of leverage, GME now rely heavily on debt to finance their operations.” Lam alerted us. He said now GME’s operations generate insufficient cash to pay back the debt and suffer from high interest, and its high debt ratio may signal the company is not having enough cash to finance their daily operations, which has high risk of go bankrupt.</p>
+                            <div class="flourish-embed flourish-chart" data-src="visualisation/9434480"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                            <h2 class="section-heading">Aqumon stressed stock price would return to its fundamental at last</h2>
+                            <br>
+                            <div style="display: flex; justify-content: center;">
+                                <iframe width="450" height="253.12" src="https://www.youtube.com/embed/1jSD37RyJ64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            <p>Aqumon Head Of Corporate Communications Caroline York also commented on Hoi's case. She said Aqumon, whose belief is long-term investment, has not included social media data in its investment decision algorithm. “Although there is a rise of social media data volume and NLP has become more mature, we strongly believe sentiment has little impact to companies’ value.” </p>
+                            <p>She added that companies’ assets and competitiveness would be still there even if the public sentiment is poor, like Meta (named Facebook previously) has been surrounding negative comments in since 2010, but its stock price keeps increasing till 2021. </p>
+                            <span class="caption text-muted">Stock price chart of Meta since its IPO in 2012</span> 
+                            <div style="display: flex; justify-content: center;">
+                                <img class="img-fluid" src="assets/img/metaprice.png">.
+                            </div>
+                            <span class="caption text-muted">Source: Google</span> 
+                            <p>Contrary, if companies’ fundamentals are poor, even if the stock price skyrocket because of short-term sentiment change, its stock price would return to the company's fundamental eventually. Recently, a remarkable example would be Warren Buffet and Catherine Wood’s portfolio return. She explained from 2020-2021 Wood’s portfolio return was much higher than Buffet’s, but in 2022, Buffet’s return converges with Wood's again.</p>
+                            <span class="caption text-muted">Chart showing Warren Buffet and Cathie Wood's return</span> 
+                            <div style="display: flex; justify-content: center;">
+                                <img class="img-fluid" src="assets/img/warrentcathie.png">.
+                            </div>
+                            <span class="caption text-muted">Source: Bloomberg</span> 
+                            <!-- <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+                            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                            <p>
+                                Placeholder text by
+                                <a href="http://spaceipsum.com/">Space Ipsum</a>
+                                &middot; Images by
+                                <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+                            </p> -->
+                            <br>
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                                <div class="col-md-5 col-lg-4 col-xl-3">
+                                   <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Fundamental">Previous</a></div>
+                                </div>
+                                <div class="col-md-5 col-lg-4 col-xl-3">
+                                   <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Technicality">Continue</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+            
+        <div id="Technicality">
+                <!-- Page Header-->
+                <header class="masthead" style="background-image: url('assets/img/lsw01993.jpg')">
+                    <div class="container position-relative px-4 px-lg-5">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-md-10 col-lg-8 col-xl-7">
+                                <div class="post-heading">
+                                    <h1>Analytical experts responded to Hoi's loss</h1>
+                                    <h2 class="subheading">We have invited Wizpresso Chief Data Scientist and analyst from a major US bank to comment on Hoi's trading program from a technical perspective</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- Post Content-->
+                <article class="mb-4">
+                    <div class="container px-4 px-lg-5">
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-md-10 col-lg-8 col-xl-7">
+                                <p>Other than the feedback from financial professionals to Hoi's loss, I have also interviewed data science and analytical experts to comment on his trading program, hopefully allow young investors who are interested in applying NLP to analyse social media data to become more aware of the traps behind.</p>
+                                <div style="display: flex; justify-content: center;">
+                                    <img class="img-fluid" src="assets/img/infographics.png">.
+                                </div>
+                                <h2 class="section-heading">Low-cost bag of word model is flawed that can only capture surface meaning</h2>
+                                <p>Giving Hoi's <a href="https://github.com/tstewart161/Reddit_Sentiment_Trader">sentiment trading program source code</a> to Chief Data Scientist Mr. Po in Wizpresso, which is a Hong Kong-based technology company that aims to augment capital markets workflow by developing NLP and deep learning to automate financial due diligence, he commented, “Neglecting his trading strategies, the program itself has some technical flaws.” </p>
+                                
+                                <span class="caption text-muted">Wizpresso, a Hong Kong-based technology company</span> 
+                                <div style="display: flex; justify-content: center;">
+                                    <img class="img-fluid" src="assets/img/wizpressocompany.jpeg">.
+                                </div>
+                                <span class="caption text-muted">Source: Wizpresso</span> 
+                                <p>He said the graduate’s code is dictionary-based sentiment extraction method, which is essentially bag-of-words models that treat text as a collection of words without considering the sequence relationship of words. “Since the bag-of-word model can only capture the most shallow features, the emotion extraction processing would be rough and not granular enough.” he stressed. </p>
+                                <p>He further explained text features can be divided into two levels of processing, namely surface and syntactic features. Surface level means detecting words appearance and frequency only, while syntactic features involve deeper textual understanding such as interpreting part of speech, grammar and even word order.</p>
+                                <p>For example, he said suppose we build a sentiment analyzer based on only Bag of Words, such a model will not be able to capture the difference of sentences with same words but with different part of speech, e.g. between “I like you”, where “like” is a verb with a positive sentiment, and “I am like you”, where “like” is a preposition with a neutral sentiment.</p>
+                                <span class="caption text-muted">Can't differentiate "I like you" and "I am like you"</span>
+                                <div style="display: flex; justify-content: center;">
+                                    <img class="img-fluid" src="assets/img/like.png">.
+                                </div>
+                                <!-- <section class="rw-wrapper"> -->
+                                    <!-- <h2 class="rw-sentence">
+                                        <span>Do you know?</span>
+                                        <div class="rw-words rw-words-2">
+                                            <span>Bag-of-word model can't differentiate</span>
+                                            <span>"I like you" and "I am like you"</span>
+                                            <span>"He genuinely needs to do that"</span>
+                                                and "He needs to do that genuinely"</span>
+                                        </div>
+                                        <br>
+                                    </h2> -->
+                                <!-- </section> -->
+                                <p>Po gave another example of same words but different sequential order illustrate the importance of sequential order to a good NLP model which the graduate’s code is missing. For the following two sentences: “He genuinely needs to do that.” and "He needs to do that genuinely.", they use the same words, but they differ in meaning. The first signifies that the person really needs to do something, while the second means that the person must do something with sincerity. The word order is important here not to convey feeling or tone, but to impart a particular interpretation. </p>
+                                <span class="caption text-muted">Can't differentiate “He genuinely needs to do that.” and "He needs to do that genuinely."</span>
+                                <div style="display: flex; justify-content: center;">
+                                    <img class="img-fluid" src="assets/img/genuine.png">.
+                                </div>
+                                <p>Po also explained why capturing grammar in NLP model is important, which the graduate’s code is missing. “For example, hyphens can change the meaning of your sentence”. he said. Considering two sentences : “A hot-water bottle is a bottle for holding hot water.” and “A hot water bottle is a water bottle that is hot.” The first sentence, with the hyphens, is describing a bottle for holding hot water. The second sentence is stating that it is a hot water bottle. However, to bag-of-word model, both sentences would be the same.</p>
+                                <h2 class="section-heading">Current dictionary for bag-of-word model is poorly developed for social media text and is expensive to develop</h2>
+                                <p>“Other than the model, it is by nature difficult and time-consuming to tailor-make a dictionary for the context of specifically predicting WallStreetBets sentiment.” Po added. He said typical word lists in financial area include Loughran McDonald Word List, which is a list of positive and negative words for official financial reports which contain the summary of companies’ performance. </p>
+                                <span class="caption text-muted">Example of a word list</span>
+                                <div style="display: flex; justify-content: center;">
+                                    <img class="img-fluid" src="assets/img/wordlist.png">.
+                                </div>
+                                <span class="caption text-muted">Source: towarddatascience</span>
+                                <p>However, he criticized the word list is a very rough dictionary. For example, there were some financial-specific words were not mapped, such as “short” were not mapped as a negative word, even “shorting a stock” clearly expresses a negative sentiment toward that stock.</p>
+                                <p>Also, Loughran McDonald Word List is not specifically built up for understanding social media or Reddit’s comment text. The term “diamond hands” is believed to be coined in the r/WallStreetBets subreddit, which is used primarily to talk about those investing in highly volatile investments like meme stocks and cryptocurrencies. Also, Loughran McDonald Word List definitely does not include "Position or Ban", which is used on Wallstreetbets after a user posts a screenshot of their Robinhood home screen showing a gain or a loss. If users are unable to provide your positions, the community may ban them. He criticized the bag-of-word model would probably labels “Position or Ban” as negative it detects the negative word “ban”, even though it is positive correlated with the stock price.</p>
+                                <span class="caption text-muted">To the moon graphics, a commonly appeared slang in Wallstreetbets</span>
+                                <div style="display: flex; justify-content: center;">
+                                    <img class="img-fluid" src="assets/img/to-the-moon-wsb.gif">.
+                                    </div>
+                                <span class="caption text-muted">Source: Reddit</span>
+                                <h2 class="section-heading">Even advanced Models can’t identify granular human emotions</h2>
+                                <p>“Emotion extraction based on very advanced machine learning may capture more advanced syntactic features from text” Po said. However, human emotions are so complex that is divided into 8 large dimensions and 24 fine-grained dimensions, namely vigilance, joy, hatred, grief, fear, surprise, annoyance and so on. </p>
+                                <p>“The current machine learning-based methods cannot achieve such high-granularity emotion extraction.” he warned. Particularly, he said it is still a difficult task even for advanced models to understand sarcasm such as “It’s raining again today… fun times!” Another difficulty he mentioned is when reading into context is necessary in addition to the meaning of words. For example, “I love the new Company-A phones, they are so much better than Company-B’s.”, where expressions like “love” and “much better” carry positive sentiment, however, the sentiment is not so good for “Company-B”. </p>
+                                <h2 class="section-heading">Only textual data cannot capture the essence of Reddit sentiment</h2>
+                                <p>Other than Po and Lam, I have also interviewed an analyst (nickname as Tim in following article) from a major US bank who chose to remain anonymous due to regulation concern. Tim said “model that solely relies on text can’t capture the multi-media nature of social media like Reddit.” he added. Compared with only text in financial statements, there are wider variety of elements such as videos, pictures or even emojis on social media like Reddit.</p>
+                                <p>In the top post - “GME, GO BRRR - January 30” with 431,000 upvotes had gone viral because of a video. A 15-second video shows “GME, GO BRRR” displayed on a New Tradition billboard in Times Square. Someone saw the billboard and managed to post it on r/wallstreetbets. It immediately blew up the sentiment of the subreddit, reaching over 200.000 upvotes in just a few hours.</p>
+                                <span class="caption text-muted">Reddit and WallStreetBets have rich multi-media elements</span>
+                                <div style="display: flex; justify-content: center;">
+                                <video controls="controls" width="550" height="600" name="Video Name">
+                                    <source src="assets/img/GME go brrr billboard.mov">
+                                  </video>
+                                </div>
+                                <span class="caption text-muted">Source: Reddit</span>
+                                <p>“As mentioned in the beginning, wallstreetbets is characterized by heavy use of emojis, often in senses that are unique to the subreddit.” he explained. For example, the rocket emoji, which appears very frequently in WallStreetBets, convey strong positive sentiment. If it is neglected, the model miss a large portion of the original sentiment.</p>
+                                <h2 class="section-heading">There is so much randomness in a social media platform to predict</h2>    
+                                <p>“It is difficult to accurately predict stock price with comments as there are too many uncertain factors in a social media platform” Po said. For example, there were zero comments recorded on 27th Feb in WallStreetBets. Logically, the model would predict the stock price to drop. However, in reality, the stock price spikes, deviating from the machine’ prediction. </p>
+                                <p>He explained the comments turning zero is not because GME has lower public attention - it is exactly the opposite when the short squeeze happened and company Discord banned the r/WallStreetBets server for “seeing hateful and discriminatory content”, that they claim there are many posts on the subreddit contain offensive language. </p>
+                                <p>Less than 1 hour, the moderators reopen the subreddit due to massive complaints. The subreddit has then even seen a more significant increase in attention in following ban, at the same time causing retailers to buy GME stock as a support. Therefore, he reassured the comments turning zero is not because GME has lower public attention, rather it is exactly the opposite. It illustrates accurately predict stock price is difficult if there are too many uncertain factors.</p>
+                                <span class="caption text-muted">GME and Robinhood have been suddenly banned, even more supporters bought GME stock as a support</span>                     
+                                <div style="display: flex; justify-content: center;">
+                                    <video controls="controls" width="550" height="600" name="Video Name">
+                                        <source src="assets/img/JOUR4855 Robinhood blocking GME.mov">
+                                      </video>
+                                    </div>
+                                 <span class="caption text-muted">Source: Reddit</span>
+                                <h2 class="section-heading">Model might work well only in specific timeframe</h2> 
+                                <p>Po reminded relevant investors that the social media comment data might only perform well in a specific timeframe. The chart of comments per day against GME stock price from Jan 2021 to Feb 2021, in which timeframe the WallStreetBets happen,  shows the correlation of stock price and comment frequency is very strong. However, the correlation turns lower in other timeframe or even unrelated in recent stock market crash. “If the stock market crash, investors would transfer their money back to safer assets like gold and large-capitalisation companies like Apple and Amazon, but not Meme stocks like GME and AMC.” he added.</p>
+                                <div style="display: flex; justify-content: center; ">
+                                    <img class="img-fluid" src="assets/img/timeframe.png">.
+                                    </div>
+                                <span class="caption text-muted">Source: Reddit, Google</span>
+                                <h2 class="section-heading">Model might work well only in small-cap stocks</h2> 
+                                <p>On another hand, Tim reminded that social media comment data might perform well on small capitalisation stocks but not large corporates. For example, considering Amazon and Apple, which have a market capitalisation of $1.534 Trillion and $2.736 Trillion respectively, the chart of comments per day against amazon or apple’s stock price shows the correlation between forum activity and these two large -capitalisation stocks are very weak.</p>
+                                <div style="display: flex; justify-content: center; ">
+                                    <img class="img-fluid" src="assets/img/amazon.png">.
+                                    </div>
+                                    <div style="display: flex; justify-content: center; ">
+                                        <img class="img-fluid" src="assets/img/apple.png">.
+                                        </div>
+                                <span class="caption text-muted">Source: Reddit, Google</span>
+                                <!-- <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+                                <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                                <p>
+                                    Placeholder text by
+                                    <a href="http://spaceipsum.com/">Space Ipsum</a>
+                                    &middot; Images by
+                                    <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+                                </p> -->
+                                <br>
+                                <div class="row gx-4 gx-lg-5 justify-content-center">
+                                    <div class="col-md-5 col-lg-4 col-xl-3">
+                                       <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Technicality">Previous</a></div>
+                                    </div>
+                                    <div class="col-md-5 col-lg-4 col-xl-3">
+                                       <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Research">Continue</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div id="Research">
+                   <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/academia.png')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Do professional researchers perform better?</h1>
+                            <!-- Do industry professionals adopt social media data for algo-trading? -->
+                            <h2 class="subheading">Experts critised Hoi's trading program, but can professional researchers prove NLP and social media data are good for price prediction?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>From the above, Po and Tim criticised Hoi 's approach to use NLP technology to use social media data to predict the stock price. I have further asked Po's view on recent similar academic researches and investigate whether social media data are really that bad for price prediction as mentioned.</p>
+                        <h2 class="section-heading">Social media sentiment gives unpleasant price prediction performance</h2>
+                        <p>Po criticised even top researchers fail to develop descent models to predict stock price movement, so the industry would not risk adopting immature technologies.  For example, Dr. Anshul Gupta from Stanford University Department of Computer Science has explored whether the subreddit provides predictive ability on a stock’s price the following day. According to their reflection, their top models perform at roughly 52 and 58% accuracy, moderately improving upon random baseline of 50%. “That is fairly good for any accuracy raise, but in terms for commercial value that amount of increase has little commercial value, especially the model is not easy to build interpret.” Po said.</p>
+                        <p>"Although some researches show better results such as 70% to 80% of accuracy, my other data science colleagues and I also found their research methodology not applicable to real-life investment." Po said. For example, Charlie Wang and Ben Luo from University of Illinois at Chicago Department of Computer Science published a paper titled “Predicting $GME Stock Price Movement Using Sentiment from Reddit r/wallstreetbets” in 2021. They also predicts stock price movement, but with a much higher accuracy, 70% to 80%.</p>
+                        <p>Po said that the research paper from University of Illinois at Chicago violates the meaning of “prediction”. He explained “prediction” means you train a model with data from a timeframe earlier the short squeeze happened. “However, that research’s training dataset and testing dataset are all come from the same timeframe, that is during the GME short squeeze incident. Therefore, the high accuracy from that research paper does not mean a lot.” he explained.</p>
+                        <br>
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-md-5 col-lg-4 col-xl-3">
+                               <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Research">Previous</a></div>
+                            </div>
+                            <div class="col-md-5 col-lg-4 col-xl-3">
+                               <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Industry Practice">Continue</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div id="Industry Practice">
+        <!-- Page Header-->
+<header class="masthead" style="background-image: url('assets/img/sentiment.png')">
+ <div class="container position-relative px-4 px-lg-5">
+     <div class="row gx-4 gx-lg-5 justify-content-center">
+         <div class="col-md-10 col-lg-8 col-xl-7">
+             <div class="post-heading">
+                 <h1>How the industry uses NLP and social media data?</h1>
+                 <!-- Do industry professionals adopt social media data for algo-trading? -->
+                 <h2 class="subheading">If NLP and social media data are not suitable for price prediction, how would the professionals make good use of them?</h2>
+             </div>
+         </div>
+     </div>
+ </div>
+</header>
+<!-- Post Content-->
+<article class="mb-4">
+ <div class="container px-4 px-lg-5">
+     <div class="row gx-4 gx-lg-5 justify-content-center">
+         <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>As professionals in the industry do not think NLP and social media would be suitable for stock price prediction as discussed, the following would explore how they would apply NLP and social media data to their professional work, so that relevant parties could understand the industry practice.</p>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/infographics 2.png">.
+                        </div>
+                        <h2 class="section-heading">NLP is valuable if we see sentiment as a “proxy” and use it for surveillance</h2>
+                        <p>“Seen in every day, financial markets are not always rational and prices tend to deviate from their fundamental values.” Po said. Past research has already suggested there are irrational traders in the market, these traders may bring additional risk or premium to the market. As assets are driven by both the fundamentals and sentiment, researchers began to analyse the correlation between sentiment and market price.</p>
+                        <p>“Although the models cannot capture the entire reality, they are essential in analysis.”, he stressed he does believe Natural Language Processing is essential to analyse sentiment although he criticised the student’s model. “It is essential we build an index or proxy figures to track the relative movement of the sentiment, rather than the actual sentiment itself.” he explained.</p>
+                        <p>Po said there are very few companies analysing social media data in Hong Kong, but he heard of a company called StockPulse in Germany. According to its website, StockPulse monitors multiple worldwide online communities to create sentiment scoring based on the aggregate data. Even they have quantified the sentiment, Po recalled they have not yet used for predicting stock price. Instead of price prediction, Stockpulse’s product focuses on detecting suspicious wordings, such as bot disseminating false, manipulating or repetitive messages.</p>
+                        <span class="caption text-muted">Stockpulse's social media surveillance product</span>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/stockpulse_product.png">.
+                        </div>
+                        <span class="caption text-muted">Source : stockpulse.ai</span> 
+                        <p>I have sent email inviting StockPulse to an interview discussion, yet received no replies from them. Discussing with Po, I have searched online to double-check if they really have not provided stock price prediction solution. For solutions related to trading, it only shows “Trading Surveillance”. According to its website, “Trading surveillance” means detecting false, misleading or exaggerated comments in social media that are followed or led by noticeable stock price developments is an important objective in trading surveillance. </p>
+                        <h2 class="section-heading">NLP help understanding financial reports with factor and sentiment classification </h2>
+                        <p>What Po observed in the industry is rarely would he see fund managers or quantitative investors directly built algo-trading program solely on one social media platform’s sentiment. Yet, NLP is still fairly possible to assist investment, such as assisting investors to understand the financial reports more efficiently.</p>
+                        <span class="caption text-muted">Wizpresso's NLP-powered products</span> 
+                        <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/20211030 Wizpresso Solutions.png" alt="..." /></div>
+                        <span class="caption text-muted">Source : Wizpresso</span> 
+                        <p>He demonstrated one of his company’s products, market intelligence search engine product “Discovery” to help financial analysts quickly spot on the right information regarding the financial status of the company. Po said they were using cutting-edged technology to classify factors into granular aspects such as ‘Business development’, ‘Financials’, ‘Accounting’, ‘Operations’ and more”.</p>
+                        <p>“The models classify them automatically based on unique wordings of each factor.” Po explained. For example, in “Business development”, more commonly appeared words would be related to distribution processes, sales and marketing and growth strategies etc. While in “Operations”, the words would be related to company’s production and procurement process such as manufacturing, supply-chain, and working capital etc.</p>
+                        <p>“Thanks to Hong Kong Exchanges and Clearing Limited (HKEX) and The Securities and Exchange Commission (SEC)’s strict regulation on reporting, financial reports are often well structured and normally the wordings of each factor are fairly predictable and consistent.” he explained why the machine learning model works much more stable in financial report’s text compared to social media data,  which the text have less standardised structure and meaning.</p>
+                        <!-- <span class="caption text-muted">Financial reports are good because they are more structured because of regulation requirements</span>                        
+                        <div style="display: flex; justify-content: center;">
+                        <audio src="assets/img/Financial reports are more structured because of regulations.mp3" type="audio/mpeg" controls></audio>
+                        </div> -->
+                        <p>“Even the model might somehow predict wrongly in our product, that does not do so much harm compared with the graduate’s algo-trading case you mentioned.” Po stressed.</p>
+                        <span class="caption text-muted">Po said NLP helps understanding financial reports</span>
+                        <!-- <div style="display: flex; justify-content: center;">
+                            <iframe width="450" height="253.12"  src="https://www.youtube.com/embed/ct-mayEMtMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div> -->
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/Screenshot 2022-05-08 at 20.35.14.png">.
+                        </div>
+                        <p>As investment bank analysts often rely on sentiment of the financial reports to determine the parameters (such as growth rate of the company) in calculating the intrinsic value of firms, the product “Discovery” also facilitates that by calculating the sentiment of the financial report. By mapping sentences into “positive” and “negative”, users can locate to the respective sentences to investigate manually. </p>
+                        <!-- <span class="caption text-muted">Wizpresso product "Discovery"'s sentiment analysis feature</span> 
+                        <br>
+                        <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/Screenshot 2022-05-08 at 20.36.35.png">.
+                        </div> -->
+                        <!-- <div style="display: flex; justify-content: center;">
+                            <video controls="controls" width="700" height="600" name="Video Name">
+                                <source src="assets/img/Tencent_sentiment.mov">
+                              </video>
+                            </div>
+                            <span class="caption text-muted">Video recorded by TrevinTam with permit</span>  -->
+                        <h2 class="section-heading">NLP help understanding financial reports with text summariser and keyword extraction</h2>
+                        <p>“Another less risky NLP application in financial service is text summariser.” he added. “Even for professional investment bankers, due diligence for an IPO is a lengthy and expensive process involving many parties.” he said. In addition, IPO verification is a tedious process that most juniors don’t enjoy doing, causing big firms talent retention issues.” Po explained why text summariser would help this situation for professional investors.  </p>
+                        <span class="caption text-muted">Text summariser illustration</span>
+                        <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/text summariser.png" alt="..." /></div> 
+                        <p>“At the same time it helps retail investors too.” he added. They are unlike professional investors, who may not have long hours to analyse financial reports or may not be very familiar with companies. So a financial report summarizer would streamline his comprehension and shorten digestion time by giving him a sense of what the report would be about.</p>
+                        <p>“A similar application to text summariser is keyword extraction, that would be even a shorter brief of what the companies are about”, he added. Take Tencent financial report as an example, it shows keywords like “Online Games”, “FinTech” and “Cloud and Other Business Services” etc, which allow us to quickly grasp the idea of Tencent’s business areas.</p>
+                        <!-- <span class="caption text-muted">Wizpresso product "Discovery"'s keyword extraction feature</span>  -->
+                        <!-- <div style="display: flex; justify-content: center;">
+                            <video controls="controls" width="700" height="600" name="Video Name">
+                                <source src="assets/img/Tencent_keyword.mov">
+                              </video>
+                            </div>
+                            <span class="caption text-muted">Video recorded by TrevinTam with permit</span>  -->
+                        <!-- <div style="display: flex; justify-content: center;">
+                            <img class="img-fluid" src="assets/img/Screenshot 2022-05-08 at 20.36.48.png">.
+                        </div> -->
+                        <h2 class="section-heading">Using NLP to analyse company’s ESG rating and alert change in sentiment based on public news</h2>
+                        <p>On another hand, Tim (major US bank analyst) said nearly no banks would not use Natural Language Processing on trading directly, nor building index to track the sentiment of a certain social media. But he disclosed their bank would use Natural Language Processing to quantify ESG news and aggregate the score to find if there is discrepancy between the ESG rating based on public news versus what they have claimed in their ESG report.</p>
+                        <p>He explained why not many banks are analysing social media data - First is the benefit-cost consideration, it is fairly easy to track the keyword trend on Google Trend, but if you build models to scrape the comments hence analyse them would be costly. Secondly, it is very difficult to define a context what the forums are talking about, model is poor in prediction if the context is ambiguous and ever-evolving.</p>
+                        <span class="caption text-muted">Tim said Google Trend could already effectively tell them the social media trend</span>
+                        <div class="row gx-4 gx-lg-5 justify-content-center"><img class="img-fluid justify-content-center" src="assets/img/google search trend.png" alt="..." /></div>                       
+                        <p>With focusing the ESG context in financial reports rather than random context from social media, Deutsche Bank also devised a way to evaluate sustainability reports using NLP algorithm – to ascertain whether commitments a firm made to reduce carbon emissions were correlated with achieved sustainability performance, according to according to Decimal Point Analytics in 2021. The algorithm also checked for mentions of numeric and quantitative terms (like 'first' and 'half'), and for use of active versus passive language. The bank discovered that firms using highly active and numeric language have, on average, a 74% chance of reducing their future emissions.</p>
+                        <p>Also, with news as the data source rather than social media data, UBS wealth management has also used NLP in its investment due diligence to detect negative news via analysing documents fetched from search engines, which saves hours of time and frees up time for other critical tasks.</p>
+                        <h2 class="section-heading">Using NLP to analyse company’s earning transcript</h2>
+                        <p>Similar to Wizpresso product to analyse financial reports, he said his bank and other banks like Goldman Sachs are using NLP to analyse earnings transcript. “Earnings transcript also has a more standardised structure and usually in a more official tone” he explained. Earnings call is a conference call between the management of a public company, analysts, investors, and the media to discuss the company's financial results during a given reporting period, such as a quarter or a fiscal year. </p>
+                        <p>He said the analysts could be ascertain what to be expected in a earning transcript. Taking the following sentence, “Our total ad revenue in Q4 was $32.6B, which is up 20% year-over-year. The close of the year also marked the first time our business generated more than $100B in annual revenue. “ Similar phrases such as  “20% year-over-year”, “generated more than $100B” would appear very frequently and commonly in every earning transcript, which can be easily identified by the model as positive without major problem.</p>
+                        <p>With earning calls or transcripts, Global asset manager American Century Investments uses NLP to complement its research process with an NLP sentiment model that aims to detect deception in management commentary or language, according to Decimal Point Analytics in 2021. It evaluates the text for an indication of deception such as blame, deflection of responsibility characterized by the use of language such as ‘bad luck’, ‘challenging environment’, etc.  </p>
+                        <h2 class="section-heading">Hoi would keep an eye on other application of social media data</h2>
+                        <p>“Thinking back, I agree GME had a poor fundamental and social media data only could reflect the short-term fluctuation, but stock price would return to its fundamental at last.” Hoi agreed with what experts had warned him.</p>
+                        <p>He added this incident of losing HKD$ 300,000 indeed taught him a lesson, although there were some academic researches showing high accuracy of prediction, he said he would be aware of the details before using NLP models for trading, as some researches’ methodology might not be accurate, and the results could be misleading.</p>
+                        <p>Also, Hoi said he would not consider NLP for trading again, until the technology becomes more mature. While being shocked by how difficult it is to capture social media sentiment, he said he would keep exploring how alternative data could be applied in different fields. </p>
+                        <p>For example, as he has been working in news agency and FMCG company as a IT trainee, he observe gauging the customers’ comments manually are very costly, he said he might learn from Wizpresso, to extract some keywords from their comments, so that they could automatically know what they are talking about through a dashboard. They can also count specific words, like how many times a product name is mentioned last week, so that they know which products have more attention, while some spark less discussion. Nonetheless, he said the feedback from Wizpresso inspired  him of doing content recommendation using NLP. Like Wizpresso and YouTube, news agencies could recommend similar content to readers once they have read one, they could play a more active role with the technology of NLP.</p>
+                        <p>“Although I lost some money in stock market, alternative data like social media to me are still very interesting, I would still keep an eye for those data, as I believe if I used them properly they still bring great value to us.” he stressed.</p>
+                        <!-- <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
+                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
+                        <p>
+                            Placeholder text by
+                            <a href="http://spaceipsum.com/">Space Ipsum</a>
+                            &middot; Images by
+                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
+                        </p> -->
+                        <br>
+                        <div class="row gx-4 gx-lg-5 justify-content-center">
+                            <div class="col-md-5 col-lg-4 col-xl-3">
+                               <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Industry Practice">Previous</a></div>
+                            </div>
+                            <div class="col-md-5 col-lg-4 col-xl-3">
+                               <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#Home">Reread</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
